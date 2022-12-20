@@ -1,0 +1,143 @@
+
+body{
+    min-height: 100vh;
+
+}
+
+main{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+img{
+    height: 700px;
+    
+}
+footer{
+    background-color: black;
+}
+.social{
+    text-align: center;
+    font-size: 70px;
+    color:white   
+}
+aside{
+    background-color: black;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .footer {
+    height: 80px; */
+
+    
+/* main {
+    min-height: calc(100vp - 160px);
+} */
+
+/* .header .link li{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} */
+/* .header .link li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+    
+
+} */
+/* .nav h1{
+    display: inline-block;
+    float: left;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color:white
+} */
+/* .section h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color:white
+    
+} */
+/* .section{
+    text-align: center;
+}
+.section img{
+    display: inline-block;
+    height: 700px;
+   
+    
+    
+} */
+.carrito {
+    color: white;
+}
+    
+
+    
+    
+/* }
+.footer .socialmedia {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.sobremi img{
+    display: inline-block;
+    height: 700px;
+}
+.about__me {
+    display: inline-block;
+    color: white;
+    text-align: left;
+}
+ 
+.gallery img {
+    width: 200px;
+    height: 250px;
+}
+.sectionserv .servicestext{
+    color: white;
+    font-size: 20px;
+}
+.sectionserv a{
+    color: white;
+}
+.sectionserv .servicestext2{
+    color: white;
+    font-size: 20px;
+}
+.sectionserv .servicestext3{
+    color: white;
+    font-size: 20px;
+}
+.sectionserv img{
+    width: 250px;
+    height: 200px;
+}
+.form{
+    color:white
+}
+.form h2{
+    font-size: 40px;
+}
+.form form{
+    font-size: 20px;
+}
+.form .contacto{
+    font-size: 30px;
+}
+.sobremi .contactarme a{
+    font-size: 30px;
+    color:white
+} */
+
