@@ -10,42 +10,68 @@
     <title>Contact me</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-         <h1>Sol  Leoni</h1>
-         <div class="carrito">
-             <i class="fa-solid fa-cart-shopping"></i>
-         </div>
-     
-        <ul class="link">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about-me.html">About me</a></li>
-            <li><a href="./gallery.html">Gallery</a></li>
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </header>
-<main>
-    <section class="form">
-        <h2>Hazme saber tu duda</h2><br><br>
-        <form>
-            <label for="nombre y apellido"> Nombre y apellido</label>
-            <input type="text" id="nombre y apellido" required  > <br> <br>
-            <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono" required > <br> <br>
-            <label for="email">Email</label>
-            <input type="email" id="email" required> <br> <br>
-            <label>Consulta</label><br><br>
-            <textarea></textarea><br><br>
-            <input type="submit" value="enviar formulario"> 
-        </form>
-        <div class="contacto">
-            <h3>solchuleoni@gmail.com</h3>
-            <h3>(011) +54 1512345678</h3>
+  <!-- inicio barra navegacion -->
+    <div class="conteiner-fluid header">
+        <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-dark micolor">
+                <a class="navbar-brand" href="#">Sol Leoni Fotografía</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href= "../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/about-me.html">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/gallery.html">GALLERY</a>
+                    <li class="nav-item">
+                     <a class="nav-link" href="../pages/services.html">SERVICES</a>
+                     <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
         </div>
+    </div> 
+    <!-- fin barra navegacion -->
+<!-- inicio del formulario -->
+  <section class="conteiner">
+    <div class="titulo-contact">
+    <h3>Enviame tu consulta</h3>
+    </div>
 
-    </section>
-</main>
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="form-group">
+          <label for="nombreyapellido">Nombre y apellido</label>
+          <input type="text" id="nombreyapellido" class="form-control required">
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="text" id="telefono" class="form-control required">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="consulta">Consulta</label><br>
+            <textarea></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-dark" type="submit">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+      <!-- fin del formulario -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
