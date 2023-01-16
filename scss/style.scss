@@ -1,0 +1,85 @@
+@import "./variables";
+*{
+    background-color: $color1;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    .logo_sol{
+        width: 300px;
+    }
+    .nav-item:hover{
+        transform: scale(1.05); 
+    }
+}
+.carrusel_home{
+    background-color: $color1;
+}
+.social{
+    height: 100px;
+    text-align: center;
+    color: $color2;
+    .social1{
+        font-size: 60px;
+        width: 90px;
+        padding: 30px;
+    }
+}
+.about__sol{
+    height: 500px;
+    img{
+        height: 500px;
+        padding: 50px;
+    }
+    aside{
+        font-family: $font2;
+        color: $color2;
+        letter-spacing: 5px;
+        text-align: center;
+        padding: 25px;
+        a:hover{
+            background-color: $color3;
+        }
+    }
+}
+.galeria_sol{
+    img{
+        width: 200px;
+        height: 250px;   
+    }
+    img:hover{
+        transform: scale(1.50);
+        
+    }
+}
+.services_card{
+    .card{
+        font-family: $font3;
+        color: $color2;
+        a{
+            background-color: $color2;
+        }
+        a:hover{
+            background-color: $color3;
+        }
+    }
+    img{
+        height: 275px;
+    }
+}
+.titulo-contact{
+    color: $color2;
+}
+.form_sol{
+    font-family: $font3;
+    color: $color2;
+    textarea{
+        background-color: $color2;
+    }
+    button{
+        background-color: $color2;
+    }
+    button:hover{
+        background-color: $color3;
+    }
+}
